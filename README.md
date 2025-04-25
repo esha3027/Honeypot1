@@ -10,6 +10,8 @@ This is a modular, Python honeypot system that emulates HTTP and SSH servers to 
 - `http_honeypot.py`: A Flask web honeypot that mimics a login page and records credential attempts.
 - `SSH_honeypot.py`: An emulated SSH server with Paramiko that records login attempts and user command history.
 
+---
+
 ## 🚀 Features
 
 - ✅ Dual-mode: Select running an SSH or HTTP honeypot.
