@@ -22,4 +22,11 @@ This is a modular, Python honeypot system that emulates HTTP and SSH servers to 
 - Flask
 - Paramiko
 
+## Install dependencies with:
+
+```bash
+pip install flask paramiko
+```
+
 ## ⚙️ User Manual
+- activate the 
