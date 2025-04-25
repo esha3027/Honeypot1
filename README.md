@@ -2,6 +2,8 @@
 
 This is a modular, Python honeypot system that emulates HTTP and SSH servers to capture and record unauthorized access attempts. It supports flexible configuration through command-line arguments and can be utilized to observe attacker activity for cybersecurity research or defense.
 
+---
+
 ## 📁 Project Structure
 
 - `argparse_file.py`: Primary entry script that parses command-line arguments and initiates either the HTTP or SSH honeypot.
@@ -16,8 +18,12 @@ This is a modular, Python honeypot system that emulates HTTP and SSH servers to 
 - ✅ Web login trap: Captures any entered credentials on a spoofed web page.
 - ✅ Adjustable credentials through command line arguments.
 
+---
+
 ## 🔐 Secutiry Notes
 This honeypot must be run in a test environment for research or monitoring alone. Never deploy it on production systems or without authorization.
+
+---
 
 ## 🧪 Requirements
 
@@ -30,6 +36,8 @@ This honeypot must be run in a test environment for research or monitoring alone
 ```bash
 pip install flask paramiko
 ```
+
+---
 
 ## ⚙️ User Manual
 - Clone the repository:
@@ -60,11 +68,17 @@ source I-venv/bin/activate
 - `cmdaudits.log`: Commands execute within the simulated SSH shell.
 - `http_audits.log`: HTTP login attempts.
 
+---
+
 ## 🧰 Future Work
 - Implement support for concurrent multi-protocol monitoring using threading or multiprocessing.
 - Implement geo-IP lookup for advanced logging.
 - Implement alert system (email/Slack/webhook) upon suspicious access.
 
+---
+
 ## 🧑‍💻 Authors
 - Esha Halder
 - Trambak Konar
+
+---
