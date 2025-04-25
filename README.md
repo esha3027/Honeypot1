@@ -21,3 +21,5 @@ This is a modular, Python honeypot system that emulates HTTP and SSH servers to 
 - Python 3.6+
 - Flask
 - Paramiko
+
+## ⚙️ User Manual
