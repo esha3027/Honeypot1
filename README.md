@@ -29,4 +29,6 @@ pip install flask paramiko
 ```
 
 ## ⚙️ User Manual
-- activate the 
+- Clone the repository:
+```bash
+git clone
