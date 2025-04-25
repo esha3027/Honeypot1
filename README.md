@@ -16,6 +16,9 @@ This is a modular, Python honeypot system that emulates HTTP and SSH servers to 
 - ✅ Web login trap: Captures any entered credentials on a spoofed web page.
 - ✅ Adjustable credentials through command line arguments.
 
+## 🔐 Secutiry Notes
+This honeypot must be run in a test environment for research or monitoring alone. Never deploy it on production systems or without authorization.
+
 ## 🧪 Requirements
 
 - Python 3.6+
@@ -53,4 +56,15 @@ source I-venv/bin/activate
   ```
 
 ## 📓 Log Files
-- ### audits.log :
+- audits.log: SSH Login Attempts
+- cmdaudits.log: Commands execute within the simulated SSH shell.
+- http_audits.log: HTTP login attempts.
+
+## 🧰 Future Work
+- Implement support for concurrent multi-protocol monitoring using threading or multiprocessing.
+- Implement geo-IP lookup for advanced logging.
+- Implement alert system (email/Slack/webhook) upon suspicious access.
+
+## 🧑‍💻 Authors
+- Esha Halder
+- Trambak Konar
