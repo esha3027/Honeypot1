@@ -56,9 +56,9 @@ source I-venv/bin/activate
   ```
 
 ## 📓 Log Files
-- audits.log: SSH Login Attempts
-- cmdaudits.log: Commands execute within the simulated SSH shell.
-- http_audits.log: HTTP login attempts.
+- `audits.log`: SSH Login Attempts
+- `cmdaudits.log`: Commands execute within the simulated SSH shell.
+- `http_audits.log`: HTTP login attempts.
 
 ## 🧰 Future Work
 - Implement support for concurrent multi-protocol monitoring using threading or multiprocessing.
