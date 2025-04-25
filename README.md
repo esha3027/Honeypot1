@@ -31,4 +31,26 @@ pip install flask paramiko
 ## ⚙️ User Manual
 - Clone the repository:
 ```bash
-git clone
+git clone https://github.com/esha3027/Honeypot1.git
+```
+- Activate virtual environment:
+```bash
+python3 -m venv I-venv
+source I-venv/bin/activate
+```
+- Run the files:
+  i) Run via command line:
+  ```bash
+  python argparse_file.py -a <IP_ADDRESS> -p <PORT> --ssh OR --http [-u USERNAME] [-pw PASSWORD]
+  ```
+  ii) Run SSH Honeypot:
+  ```bash
+  python argparse_file.py -a 0.0.0.0 -p 2222 --ssh -u [username] -pw [password]
+  ```
+  iii) Run HTTP Honeypot:
+  ```bash
+  python argparse_file.py -a 0.0.0.0 -p 8080 --http -u admin -pw password
+  ```
+
+## 📓 Log Files
+- ### audits.log :
